@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./xbox.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body 
+    <!--entete site-->
+    <header>
+        <div class="container ">
+            <div class="row">
+            <div class="col-8  ">
+                <div class="nav nav-tabs d-flex flex-row d-flex align-items-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"><img src="data:image/png;base64,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" height="50px"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="data:image/png;base64,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" height="75px"></a>
+                   
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link active police-header " href="#">Game Pass</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active police-header" href="#">Jeux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active police-header" href="#">Appareils</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link active police-header" href="#">Jouez</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link active police-header" href="#">Communauté</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link active police-header" href="#">Support</a>
+       </li>
+                   </div>
+                   </div>
+                   <!--entete droite-->
+                   <div class="col-4 d-flex">
+                    <div class="nav nav-tabs d-flex flex-row d-flex align-items-center ">
+                    <li class="nav-item  ">
+                        <a class="nav-link active police-header " href="#">tout Microsoft </a>
+                        
+                      </li>
+                      <li class="nav-item  ">
+                        <a class="nav-link active police-header" href="#">Rechercher <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg></a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link active police-header" href="#">Panier <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg></a>
+                     </li>
+                     <li class="nav-item ">
+                      <a class="nav-link active police-header" href="#">Profil <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg></a>
+                 </li>
+                   </div>
+             </div>
+        </div>
+    
+      </div>
+      
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-7 ">
+          <h5 class="m-2">Parcourir tous les jeux</h5>
+          <div>
+            <button type="button" class="btn btn-outline-secondary btn-sm">EFFACER TOUS LES FILTRES</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Xbox Series X/S</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Xbox One</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Cloud gaming</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Xbox Play Anywhere</button>
+          </div>
+        </div>
+      </div>
+      <aside class="row">
+        <!--debut nav-->
+        <div class="col-4">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary btn-sm dropdown-toggle m-2" data-bs-toggle="dropdown" aria-expanded="false">
+              Trier par Pertinence
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Pertinence</a></li>
+              <li><a class="dropdown-item" href="#">Titre de A à Z</a></li>
+              <li><a class="dropdown-item" href="#">Titre de Z à A</a></li>
+             
+            </ul>
+          </div>
+
+        </div>
+        <!--debut jeux-->
+        <div class="col-8">
+
+        </div>
+      </aside>
+    </main>
+</body>
+</html>
