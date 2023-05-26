@@ -3,3 +3,12 @@
 .police-header{
     font-size: smaller;
 }
+
+.color-button{
+    background-color: #F9F9FA;
+}
+
+.color-button-2{
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
