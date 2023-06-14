@@ -1,4 +1,6 @@
-
+.police-footer{
+    font-size:x-small;
+}
 
 .police-header{
     font-size: smaller;
@@ -20,4 +22,23 @@
     object-fit: contain;
     width: 10rem;
     height: 16rem;
+}
+
+.size-text-footer{
+    width: 90rem;
+    height: 20rem;
+}
+
+.espace-footer{
+    margin-top: 50px;
+}
+
+.footer-button{
+    border: white;
+    color: black;
+
+}
+
+.espace-fin-footer{
+    margin-bottom: 50px;
 }
